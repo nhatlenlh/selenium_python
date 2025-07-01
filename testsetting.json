@@ -1,5 +1,19 @@
 {
   "base-url": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
   "username": "Admin",
-  "password": "admin123"
+  "password": "admin123",
+  "new-user":{
+    "employee-name": "d",
+    "new-username": "newadmin013",
+    "new-password": "Password123!",
+    "role": "Admin",
+    "status": "Enabled"
+  },
+  "search-user" : "newadmin01",
+  "new-vacancy" :{
+    "vacancy_name": "Automation tester",
+    "description": "Test Automation Vacancy",
+    "hiring_manager": "Alexander rednaxelA", 
+    "num_position": "1"
+  }
 }

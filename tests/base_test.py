@@ -9,7 +9,7 @@ class BaseTest:
         self.driver = webdriver.Chrome()
         self.driver.maximize_window()
         self.driver.get(ConfigReader.get_base_url())
-        sleep(15)
+        self.driver.implicitly_wait(20)
         request.cls.driver = self.driver
         yield
         self.driver.quit()
